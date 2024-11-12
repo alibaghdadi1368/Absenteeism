@@ -6,7 +6,7 @@ on:
   # To run this workflow manually from the Action tab
   workflow_dispatch:
 
-job:
+jobs:
   sync-to-hub:
     run-on: ubuntu-latest
     steps:
